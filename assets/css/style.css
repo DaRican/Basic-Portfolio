@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200');
 
 body {
-    background-color: #34495e;
+    /* background-image: url("assets\images\mosaic.png") black; */
 }
 .profilePic{
   border: 1px solid black;
@@ -39,7 +39,7 @@ h1 {
   align-content: center;
   background-color: #ffffff;
   clear: both;
-  width: 80%;
+  width: 93%;
   box-sizing: border-box;
 }
 
@@ -50,7 +50,7 @@ h1 {
 }
 footer{
   border-top: 2px #000000; 
-  width: 80%;
+  width: 90%;
   float: left;
   padding: 20px;
   align-content: center;
@@ -148,12 +148,5 @@ div.intro_container {
     width: 50%;
     height: 800px;
 }
-
-/* #intro{
-    float: left;
-    width: 50%;
-    height: 800px;
-}
-  */
 
   
