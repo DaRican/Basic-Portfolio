@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200');
 
 body {
-    /* background-image: url("assets\images\mosaic.png") black; */
+    background: url("../images/mosaic.png");
 }
 .profilePic{
   border: 1px solid black;
@@ -39,8 +39,10 @@ h1 {
   align-content: center;
   background-color: #ffffff;
   clear: both;
-  width: 93%;
+  width: 1175px;
   box-sizing: border-box;
+  margin-left: 47px;
+  opacity: .7;
 }
 
 .division{
@@ -50,12 +52,28 @@ h1 {
 }
 footer{
   border-top: 2px #000000; 
-  width: 90%;
+  width: 1135px;
   float: left;
   padding: 20px;
-  align-content: center;
+  justify-content: center;
   background-color: #ffffff;
+    margin-left: 47px;
+  opacity: .7;
+}
+
+#footer-left{
+  float: left;
+  margin: 33%
+}
+
+#footer-center{
+  float: left;
+  margin: 33%;
+}
+
+#footer-right{
   clear: both;
+  margin 33%;
 }
 
 
@@ -106,20 +124,21 @@ div.item a {
 
 div.item.blue {
   background-color: #1269c0;
+  
 }
 div.item.blue i {
   color: #34495e;
 }
 div.item.red {
   background-color: #e74c3c;
-}
+  
 div.item.red i {
   color: #e74c3c;
 }
 
 div.item.green {
   background-color: #16a085;
-}
+  
 div.item.green i {
   color: #16a085;
 }
